@@ -1,0 +1,21 @@
+{
+  "name": "terraform-file-generator",
+  "version": "0.1.0",
+  "description": "TypeScript/JavaScript library to generate Terraform files programmatically",
+  "main": "index.js",
+  "repository": "https://github.com/luhring/terraform-file-generator.git",
+  "author": "Dan Luhring <dan+github@luhrings.com>",
+  "license": "MIT",
+  "scripts": {
+    "lint": "tslint --project .",
+    "build": "node build.js"
+  },
+  "dependencies": {
+    "del": "^3.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^8.5.2",
+    "tslint": "^5.8.0",
+    "typescript": "^2.6.2"
+  }
+}
